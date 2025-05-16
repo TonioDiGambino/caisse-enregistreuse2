@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 const sampleProducts = [
-  { id: 1, name: 'Menu Burger', price: 1.2, stock: 50, category: 'Boulangerie' },
-  { id: 2, name: 'Menu Salade', price: 0.9, stock: 30, category: 'Épicerie' },
-  { id: 3, name: 'Menu Pizza', price: 1.5, stock: 20, category: 'Épicerie' },
-  { id: 4, name: 'Menu Perals', price: 1.5, stock: 20, category: 'Épicerie' },
+  { id: 1, name: 'Menu Burger', price: 200, stock: 50, category: 'Restauration' },
+  { id: 2, name: 'Menu Salade', price: 150, stock: 30, category: 'Restauration' },
+  { id: 3, name: 'Menu Pizza', price: 200, stock: 20, category: 'Restauration' },
+  { id: 4, name: 'Menu Perals', price: 300, stock: 20, category: 'Restauration' },
 ];
 
 export default function App() {
